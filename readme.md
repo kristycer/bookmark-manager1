@@ -1,4 +1,6 @@
-User story
+## Bookmark Manager
+
+### User story
 ```
 As a user
 So that I can keep my bookmarks 
@@ -45,7 +47,7 @@ So that I can change or edit my bookmarks
 I want to be able to log into bookmark manager
 ```
 
-Domain model
+### Domain model
 ![Diagram](./img/diagram.svg)
 
 

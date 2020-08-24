@@ -1,3 +1,5 @@
+require './lib/bookmarks.rb'
+
 describe '#bookmarks' do
   it 'displays a list of urls' do
     bookmark = Bookmark.all

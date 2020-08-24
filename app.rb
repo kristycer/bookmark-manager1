@@ -1,14 +1,15 @@
-require 'sinatra/Base'
+# frozen_string_literal: true
+
+require 'sinatra/base'
 
 class BookmarkManager < Sinatra::Base
 
-  get '/' do 
-  	"Hello World"
+  get '/' do
+    erb :index
   end
 
 
 
 
-
-
+  
 end

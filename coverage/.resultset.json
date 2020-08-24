@@ -1,6 +1,16 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/student/Makers/Pair_programming/Week-4/Bookmark-manager/spec/bookmarks_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          0,
+          null,
+          null
+        ]
+      },
       "/Users/student/Makers/Pair_programming/Week-4/Bookmark-manager/spec/features/test_infrastructure_spec.rb": {
         "lines": [
           null,
@@ -24,6 +34,6 @@
         ]
       }
     },
-    "timestamp": 1598280750
+    "timestamp": 1598281314
   }
 }

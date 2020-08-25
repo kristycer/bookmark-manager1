@@ -70,4 +70,6 @@ I want to be able to log into bookmark manager
 
 * Connect to the database using the pqsl command \c bookmark_manager_test;
 
+* CREATE TABLE bookmarks(id SERIAL PRIMARY KEY, url VARCHAR(60)); 
+
 ```

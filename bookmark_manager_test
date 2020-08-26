@@ -1,0 +1,99 @@
+CREATE DATABASE "kristynacervenkova";
+\l
+\q
+\l
+CREATE DATABASE bookmark_manager;
+\dt
+\c bookmark_manager;
+\dt
+CREATE TABLE bookmarks(id SERIAL PRIMARY KEY, url VARCHAR(60));
+\dt
+q
+exit
+\q
+\l
+\c bookmark_manager
+SELECT * FROM bookmarks;
+INSERT INTO bookmarks VALUE(1, "http://www.google.co.uk");
+INSERT INTO bookmarks ("http://www.instagram.com");
+INSERT INTO bookmarks VALUES ("http://www.instagram.com");
+NSERT INTO bookmarks VALUES ("http://www.facebook.com");
+SELECT * FROM bookmarks;
+INSERT INTO bookmarks (url) VALUES ('http://www.google.com');
+SELECT * FROM bookmarks;
+bookmark_manager=# INSERT INTO bookmarks (url) VALUES ("http://www.instagram.com");
+NSERT INTO bookmarks (url) VALUES ("http://www.instagram.com");
+INSERT INTO bookmarks (url) VALUES ("http://www.instagram.com");
+INSERT INTO bookmarks (url) VALUES ('http://www.instagram.com');
+INSERT INTO bookmarks (url) VALUES ('http://www.facebook.com';
+SELECT * FROM bookmarks;
+SELECT * FROM bookmarks;
+INSERT INTO bookmarks (url) VALUES ('http://www.facebook.com');
+\q
+\c bookmark_manager;
+INSERT INTO bookmarks (url) VALUES ('http://www.facebook.com');
+SELECT * FROM bookmarks;
+SELECT * FROM bookmarks LIMIT 2;
+\q
+\c bookmark_manager;
+\c bookmark_manager;
+\l
+\dt
+\c bookmark_manager;
+SELECT * FROM bookmarks;
+\q
+CREATE DATABASE bookmark_manager_test;
+\c bookmark_manager_test;
+CREATE TABLE bookmarks(id SERIAL PRIMARY KEY, url VARCHAR(60)); 
+CREATE DATABASE "kristyna";
+\l
+psql
+CREATE DATABASE chitter;
+\l
+CREATE DATABASE chitter;
+\c chitter;
+\dt
+CREATE TABLE chitter(id SERIAL PRIMARY KEY, url VARCHAR(60));
+\dt
+SELECT * FROM chitter;
+SELECT * FROM peeps;
+SELECT * FROM chitter;
+\dt
+CREATE TABLE chitter(id SERIAL PRIMARY KEY, url VARCHAR(60));
+\dt
+\c
+CREATE DATABASE chitter;
+\c chitter;
+\dt
+INSERT INTO chitter VALUES(1, 'This is my first peep');
+INSERT INTO chitter (url) VALUES (This is my first peep');
+INSERT INTO chitter (url) VALUES (This is my second peep');
+SELECT * FROM chitter;
+\l
+CREATE DATABASE peeps;
+\c peeps;
+\dt
+CREATE TABLE peeps(id SERIAL PRIMARY KEY, url VARCHAR(60));
+CREATE TABLE peeps(id SERIAL PRIMARY KEY, url VARCHAR(60));
+SELECT * FROM peeps;
+INSERT INTO peeps; VALUES(1, 'This is my first peep');
+INSERT INTO bookmarks (url) VALUES VALUES(1, 'This is my first peep');
+INSERT INTO bookmarks (url) VALUES ('This is my second peep');
+INSERT INTO peeps (url) VALUES ('This is my first peep');
+INSERT INTO peeps (url) VALUES ('This is my second peep');
+SELECT * FROM peeps;
+CREATE DATABASE 'peeps_test';
+CREATE TABLE peeps(id SERIAL PRIMARY KEY, url VARCHAR(60));
+CREATE DATABASE peeps_test;
+\c peeps_test;
+\dt
+CREATE TABLE peeps_test(id SERIAL PRIMARY KEY, url VARCHAR(60));
+SELECT * FROM peeps;
+SELECT * FROM peeps_test;
+INSERT INTO peeps_test (url) VALUES ('This is my first peep');
+INSERT INTO peeps_test (url) VALUES ('This is my second peep');
+SELECT * FROM peeps_test;
+/l
+\l
+\q
+\s bookmark_manager_test

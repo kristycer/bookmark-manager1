@@ -30,5 +30,16 @@ enable :sessions, :method_override
     redirect '/bookmarks'
   end
 
+  get '/bookmarks/:id/edit' do
+    @bookmark_id = Bookmark.find(id: params[:id])
+    erb :edit_bookmark
+  end 
+  patch '/bookmarks/:id' do
+    Bookmark.update(id: params[:id], title: params[:title], url: params[:url])
+    redirect '/bookmarks'
+
+  redirect('/bookmarks')
+  end
+
   run! if app_file == $0
 end
